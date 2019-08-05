@@ -18,9 +18,11 @@ int main()
 
     // User input
     cout << "Type string 1:" << endl;
-    cin >> s1;
+    // cin >> s1;
+    getline(cin, s1);
     cout << "Type string 2:" << endl;
-    cin >> s2;
+    // cin >> s2;
+    getline(cin, s2);
 
     // Compare size
     if (s1 == s2)
