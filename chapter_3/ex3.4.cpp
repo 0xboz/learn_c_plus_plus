@@ -50,5 +50,7 @@ int main()
     else
     {
         cout << s1 << " is shorter than " << s2 << endl;
-    }
+    };
+
+    return 0;
 }
